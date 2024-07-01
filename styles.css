@@ -319,7 +319,7 @@
     font-size: var(--section-title-font-size);
     font-weight: var(--section-title-font-weight);
     line-height: var(--section-title-line-height);
-    margin: var(--section-title-margin);
+    margin: -2rem;
     color: var(--section-title-color);
     align-self: center;
   }
@@ -328,6 +328,7 @@
   .section-body {
     padding: var(--section-body-padding);
   }
+
   
   .section-footer {
     padding: var(--section-footer-padding);
@@ -341,6 +342,7 @@
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background: var(--color-black);
+    padding: var(--section-body-padding);
   }
   
   /* Section HERO
